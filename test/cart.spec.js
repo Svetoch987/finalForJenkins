@@ -1,4 +1,4 @@
-describe('cartItems', function() {
+describe('storeApp', function() {
 
   // Load the module that contains the `phoneList` component before each test
   beforeEach(module('cart'));

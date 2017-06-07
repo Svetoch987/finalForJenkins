@@ -1,6 +1,5 @@
 describe('storeApp', function() {
 
-  // Load the module that contains the `phoneList` component before each test
   beforeEach(module('storeApp'));
 
   // Test the controller
@@ -12,7 +11,7 @@ describe('storeApp', function() {
     }));
 
     it('should create 7 products', function() {
-      expect(ctrl.query.length).toBe(7);
+      expect(ctrl.products.length).toBe(7);
     });
 
   });
