@@ -20,7 +20,8 @@
     "karma-jasmine": "^0.3.5",
     "karma-junit-reporter": "^1.2.0",
     "karma-ng-html2js-preprocessor": "^0.1.2",
-    "protractor": "5.1.2"
+    "protractor": "^5.1.2",
+    "protractor-jasmine2-html-reporter": "^0.18.1"
   },
   "scripts": {
     "lint": "jshint src; true",
