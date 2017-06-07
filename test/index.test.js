@@ -1,4 +1,4 @@
-describe('storeApp', function() {
+/*describe('storeApp', function() {
 
   describe('storeMenuController', function() {
 
@@ -14,4 +14,9 @@ describe('storeApp', function() {
 
   });
 
-});
+});*/
+var products = ['Photoshop','Corel','Inkscape'];
+it('should create 3 products', function() {
+
+    expect(products.length).toBe(3);
+ });
