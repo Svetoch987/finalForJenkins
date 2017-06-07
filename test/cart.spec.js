@@ -1,4 +1,4 @@
-describe('storeApp', function() {
+/*describe('storeApp', function() {
 
   // Load the module that contains the `phoneList` component before each test
   beforeEach(module('cart'));
@@ -14,4 +14,8 @@ describe('storeApp', function() {
 
   });
 
-});
+});*/
+var products = ['Photoshop','Corel','Inkscape'];
+it('should create 7 products', function() {
+    expect(products.length).toBe(3);
+ });
