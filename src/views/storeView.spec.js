@@ -1,15 +1,18 @@
 describe('storeApp', function() {
 
+  // Load the module that contains the `phoneList` component before each test
+  beforeEach(module('storeApp'));
+
+  // Test the controller
   describe('storeController', function() {
+    var ctrl;
 
-    beforeEach(function() {
-      browser.get('storeView.html');
-    });
+    beforeEach(inject(function($componentController) {
+      ctrl = $componentController('storeController');
+    }));
 
-    it('should check the items in shop', function() {
-      var itemList = element.all(by.repeater('product in query'));
-
-      expect(itemList.count()).toBe(7);
+    it('should create 7 products', function() {
+      expect(ctrl.query.length).toBe(7);
     });
 
   });
