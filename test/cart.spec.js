@@ -17,5 +17,6 @@
 });*/
 var products = ['Photoshop','Corel','Inkscape'];
 it('should create 7 products', function() {
+
     expect(products.length).toBe(3);
  });
