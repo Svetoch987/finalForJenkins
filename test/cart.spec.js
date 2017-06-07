@@ -7,7 +7,7 @@ describe('cartItems', function() {
   describe('cartController', function() {
 
     it('should create cart with 0 items in it', inject(function($componentController) {
-      var ctrl = $componentController('phoneList');
+      var ctrl = $componentController('cartController');
 
       expect(ctrl.cartCtrl.items_Cart.length).toBe(0);
     }));
