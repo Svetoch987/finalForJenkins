@@ -1,6 +1,6 @@
-describe('storeApp', function() {
+/*describe('storeApp', function() {
 
-  /*beforeEach(module('storeApp'));
+  beforeEach(module('storeApp'));
 
   // Test the controller
   describe('storeController', function() {
@@ -19,4 +19,4 @@ describe('storeApp', function() {
   it('should create 7 products', function() {
       expect(products.length).toBe(3);
    });
-});
+//});
