@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-lg-13">
+      <div class="card card-tab">
+            <div class="row">
+
+                <div class="section">
+                  <div class="section-title" style="padding-left: 30px">Заказы </div>
+                        <div class="media-content" style="text-align:justify">
+                              <div ng-controller="cartController as cartCtrl">
+                                <button class="btn btn-info" ng-click="cartCtrl.getOrders()" style="margin-left: 20px">Обновить статус сделанных заказов</button>
+                                <table class="table card-table" style="margin-left: 20px; width: 500px">
+                                  <thead>
+                                    <tr>
+                                      <th>Выбранные продукты</th>
+                                      <th>Цена всего</th>
+                                      <th> Валюта </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr ng-repeat="order in  cartCtrl.orders">
+                                      <td> {{order.listOfProducts}}</td>
+                                      <td>{{order.totalSum}}</td>
+                                      <td> $ </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

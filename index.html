@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online shop</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta chartset="UTF-8">
+
+        <link rel="icon" href="http://www.sputnik-kmv.ru/images/tv/tricolor/ch-for-joomla-page/7.png" />
+
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/vendor.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/flat-admin.css">
+
+  <!-- Theme -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/theme/blue-sky.css">
+
+  <link rel="stylesheet" href="./assets/css/ng-sticky.css" type="text/css" />
+
+  <!-- ng-dialog -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.6.4/css/ngDialog.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.6.4/css/ngDialog-theme-default.css" type="text/css" />
+
+
+    </head>
+
+    <body ng-app="storeApp" ng-cloak>
+
+  <div class="app app-blue-sky">
+
+<div ng-controller="storeMenuController as storeCtrl">
+
+<aside class="{{storeCtrl.class}}" sticky-nav="">
+  <div class="sidebar-header">
+    <a class="sidebar-brand" href="#"><span class="highlight">Online - shop</span></a>
+    <button type="button" class="sidebar-toggle" ng-click="storeCtrl.openItem()">
+      <i class="fa fa-times"></i>
+    </button>
+  </div>
+  <div class="sidebar-menu">
+    <ul class="sidebar-nav">
+      <li ui-sref="home">
+        <a style="cursor:pointer" ng-click="storeCtrl.openItem()">
+          <div class="icon">
+            <i class="fa fa-home" aria-hidden="true"></i>
+          </div>
+          <div class="title">Добро пожаловать</div>
+        </a>
+      </li>
+      <li  ui-sref="store" ng-click="storeCtrl.openItem()">
+        <a  style="cursor:pointer">
+          <div class="icon">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <div class="title">Магазин</div>
+        </a>
+      </li>
+      <li ui-sref="cart" ng-click="storeCtrl.openItem()">
+        <a style="cursor:pointer">
+          <div class="icon">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+          <div class="title">Корзина</div>
+        </a>
+      </li>
+      <li ui-sref="about" ng-click="storeCtrl.openItem()">
+        <a style="cursor:pointer">
+          <div class="icon">
+            <i class="fa fa-money" aria-hidden="true"></i>
+          </div>
+          <div class="title">Заказы</div>
+        </a>
+
+      </li>
+    </ul>
+  </div>
+<!--  <div class="sidebar-footer">
+    <ul class="menu">
+      <li>
+        <a>
+          Версия сайта 1.0
+        </a>
+      </li>
+
+    </ul>
+  </div> -->
+</aside>
+
+<div class="app-container">
+
+   <nav class="navbar navbar-default" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-collapse collapse in">
+      <ul class="nav navbar-nav navbar-mobile">
+        <li>
+          <button type="button" class="sidebar-toggle" ng-click="storeCtrl.openMenu()">
+            <i class="fa fa-bars"></i>
+          </button>
+        </li>
+        <li class="logo">
+          <a class="navbar-brand" href="#"><span class="highlight">Магазин</span> ПО</a>
+        </li>
+        <li>
+          <button type="button" class="navbar-toggle">
+            <img class="profile-img" src="./assets/images/shop-64.png">
+          </button>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+        <li class="navbar-title">Онлайн магазин</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="profile">
+          <a>
+            <img class="profile-img" src="http://aibuh.ru/wp-content/uploads/2014/10/man342.png">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+       <ui-view> </ui-view>
+
+  <footer class="app-footer">
+  <div class="row">
+      <br>
+    <div class="col-xs-12">
+      <div class="footer-copyright">
+        © 2017 Бажанова Светлана.
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+
+</div>
+
+  </div>
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+
+  <script type="text/javascript" src="./src/store.module.js"></script>
+  <script type="text/javascript" src="./src/filters.js"></script>
+    <script type="text/javascript" src="./src/menu.module.js"></script>
+
+  <script type="text/javascript" src="./src/routes.js"></script>
+  <script type="text/javascript" src="./src/data.service.js"></script>
+  <script type="text/javascript" src="./src/car.module.js"></script>
+  <script type="text/javascript" src="./src/car.service.js"></script>
+
+  <!-- Components -->
+
+  <script type="text/javascript" src="./src/components/cartList.component.js"></script>
+
+  <!-- ng-dialog -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.6.4/js/ngDialog.min.js"></script>
+
+  <!-- ng-sticky -->
+  <script type="text/javascript" src="./assets/jsLibs/ng-sticky.js"></script>
+
+
+</body>
+
+
+</html>

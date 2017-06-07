@@ -1,0 +1,111 @@
+{
+  "categories": [
+    {
+      "categori_id": 1,
+      "name": "ОС"
+    },
+    {
+      "categori_id": 2,
+      "name": "Векторная графика"
+    },
+    {
+      "categori_id": 3,
+      "name": "Растровая графика"
+    },
+    {
+      "categori_id": 4,
+      "name": "Обработка видео"
+    },
+    {
+      "categori_id": 5,
+      "name": "Компьютерные игры"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Adobe photoshop CS6",
+      "price": "60.00",
+      "available": true,
+      "best_seller": true,
+      "categories": [
+        3,
+        4
+      ],
+      "img": "https://createawesomeness.files.wordpress.com/2014/10/photo.png",
+      "description": "Для работы с растровой графикой, рисование и обработка изображений"
+    },
+    {
+      "id": 2,
+      "name": "Inkscape",
+      "price": "20.00",
+      "available": true,
+      "best_seller": false,
+      "categories": [
+        2
+      ],
+      "img": "http://animateyourhtml5.appspot.com/prescommon/images/inkscape.png",
+      "description": "Для работы с векторной графикой для создания масштабируемых изображений"
+    },
+    {
+      "id": 3,
+      "name": "Windows 10",
+      "price": "10.00",
+      "available": true,
+      "best_seller": true,
+      "categories": [
+        1
+      ],
+      "img": "http://i63.tinypic.com/ix3yae.png",
+      "description": "Операционная система."
+    },
+    {
+      "id": 4,
+      "name": "Windows 8",
+      "price": "35.00",
+      "available": true,
+      "best_seller": false,
+      "categories": [
+        1
+      ],
+      "img": "http://jollyrogerproject.com/uploads/posts/2012-11/1352116070_gzbmmwqtlufgzdx.jpeg",
+      "description": "Операционная система."
+    },
+    {
+      "id": 5,
+      "name": "Adobe premiere pro CS6",
+      "price": "120.00",
+      "available": true,
+      "best_seller": true,
+      "categories": [
+        4
+      ],
+      "img": "http://asktutorial.com/wp-content/uploads/2012/08/Logo-Premiere-Cs6.png",
+      "description": "Создавайте видео и делитесь впечатлениями."
+    },
+    {
+      "id": 6,
+      "name": "Adobe premiere CC 2016",
+      "price": "12.00",
+      "available": true,
+      "best_seller": true,
+      "categories": [
+        4
+      ],
+      "img": "https://4.bp.blogspot.com/-hXIxBdpDpVw/WBypQSejICI/AAAAAAAAEh0/IHynWw6fvw42f1BFUuo1FHTkv_BZMtcCgCLcB/s1600/adobe-premiere-pro-cc.jpg",
+      "description": "Новое обновление, позволяет еще быстрее создавать видео."
+    },
+    {
+      "id": 7,
+      "name": "Vegas Pro 13.0",
+      "price": "50.00",
+      "available": false,
+      "best_seller": true,
+      "categories": [
+        4
+      ],
+      "img": "http://lumpics.ru/wp-content/uploads/2016/04/Logotip-Soni-Vegas-Pro.png",
+      "description": "Программа для создания и обработки видео."
+    }
+  ]
+}
