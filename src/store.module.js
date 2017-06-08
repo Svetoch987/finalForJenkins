@@ -13,7 +13,7 @@
         store.filter=false;
 
 
-        
+        // todo add html with this module        
         store.getData = function () {
             var products = [];
             dataService.getJSON("src/data/data.json").then(function (data){
