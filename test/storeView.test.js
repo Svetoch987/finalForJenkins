@@ -1,4 +1,4 @@
-/*describe('storeApp', function() {
+/* describe('storeApp', function() {
 
   describe('storeController', function() {
 
