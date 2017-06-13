@@ -1,5 +1,5 @@
 {
   "outputDir": "build/doc",
-	"contentDir": "path/to/guidesandcontents",
+	"contentDir": "",
 	"apiDir": "src"
 }

@@ -1,6 +1,11 @@
-/** This is a description of the different filteres. */
+/**
+ * @ngdoc filter
+ * @name .filter: //  middle part is always filter
+ * @function // all filters are a function
+ */
+ 
 (function(){
-    
+
     'use strict';
 
      angular.module("storeApp")
