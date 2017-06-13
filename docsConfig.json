@@ -1,4 +1,4 @@
 {
-  "outputDir": "build/doc",
+  "outputDir": "out",
 	"apiDir": "src"
 }
