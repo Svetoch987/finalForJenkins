@@ -1,7 +1,11 @@
 (function (){
 
     'use strict';
-
+    /**
+     * @ngdoc service  //Mark the object as a service.
+     * @name pl.myService // Provide the module and the service name
+     * @requires $rootScope
+    **/
     angular.module("cart")
     .service("cartService",cartService);
 
