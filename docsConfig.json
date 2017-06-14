@@ -1,4 +1,5 @@
-{
-  "outputDir": "out\report",
+{ 
+	"outputDir": "path/to/output",
+	"contentDir": "",
 	"apiDir": "src"
 }
