@@ -1,5 +1,5 @@
 FROM nginx
 
-COPY conf/nginx.conf /etc/nginx/nginx.conf
-COPY resources/ /usr/share/nginx/html
-
+COPY /src /usr/share/nginx/html
+COPY /assets /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html
