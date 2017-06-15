@@ -1,6 +1,6 @@
 { 
 	"outputDir": "path/to/output",
-	"contentDir": "",
+	"contentDir": "path/to/outputpartials/api",
 	"apiDir": "src",
 	"logoFile": "path/to/outputimg/logo.png"
 }
