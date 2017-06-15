@@ -5,32 +5,32 @@
      angular.module("storeApp")
      /**
       * @ngdoc filter
-      * @name priceMin: //  middle part is always filter
-      * @function // all filters are a function
+      * @name priceMin
+      * @description all filters are a function
       */
     .filter("priceMin",filterMinPriceProducts)
     /**
      * @ngdoc filter
-     * @name priceMax: //  middle part is always filter
-     * @function // all filters are a function
+     * @name priceMax
+     * @description all filters are a function
      */
     .filter("priceMax",filterMaxPriceProducts)
     /**
      * @ngdoc filter
-     * @name category: //  middle part is always filter
-     * @function // all filters are a function
+     * @name category
+     * @description all filters are a function
      */
     .filter("category",filterCategories)
     /**
      * @ngdoc filter
-     * @name available: //  middle part is always filter
-     * @function // all filters are a function
+     * @name available
+     * @description all filters are a function
      */
     .filter("available",filterAvailableProducts)
     /**
      * @ngdoc filter
-     * @name .bestSeller: //  middle part is always filter
-     * @function // all filters are a function
+     * @name bestSeller
+     * @description all filters are a function
      */
     .filter("bestSeller",filterBestSellerProducts);
 

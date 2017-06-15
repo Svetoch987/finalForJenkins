@@ -6,7 +6,7 @@
     /**
     * @ngdoc service
     * @name cart.cartService
-    * @requires $rootScope
+    * @description cart
     **/
     .service("cartService",cartService);
     function cartService (){
