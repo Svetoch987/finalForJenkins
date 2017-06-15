@@ -3,10 +3,12 @@
     'use strict';
 
     angular.module("cart")
-    .service("cartService",cartService);
     /**
-    * @name 
+    * @ngdoc service
+    * @name cart.cartService
+    * @requires $rootScope
     **/
+    .service("cartService",cartService);
     function cartService (){
 
         var cartService = this;
