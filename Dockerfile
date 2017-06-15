@@ -1,5 +1,3 @@
 FROM nginx
 
-COPY /src /usr/share/nginx/html
-COPY /assets /usr/share/nginx/html
-COPY index.html /usr/share/nginx/html
+COPY /home/sveta/htmltry /usr/share/nginx/html
