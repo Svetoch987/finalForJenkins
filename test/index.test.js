@@ -12,7 +12,7 @@ describe('storeApp', function() {
       
       browser.wait(function() {
         return browser.getCurrentUrl().then(function(url) {
-                                            expect(url).toBe('http://localhost:5050/#!/tienda');
+                                            expect(url).toBe('http://192.168.7.60:5050/#!/tienda');
                                             });
       }, 10000, "URL hasn't changed"); 
       
