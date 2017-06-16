@@ -6,7 +6,7 @@ describe('storeApp', function() {
       browser.get('http://192.168.7.60:5050/#!/');
     });
 
-    it('should redirect to cataloge page', function() {
+    it('should redirect to orders page', function() {
 
       element.all(by.xpath('//*[@class="fa fa-money"]')).click();
       
