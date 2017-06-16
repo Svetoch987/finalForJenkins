@@ -1,3 +1,3 @@
 FROM nginx
 
-COPY /home/sveta/htmltry /usr/share/nginx/html
+COPY /onlineshop /usr/share/nginx/html
