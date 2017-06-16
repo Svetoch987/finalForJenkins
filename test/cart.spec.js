@@ -11,12 +11,10 @@ describe("creating cart", function() {
     }));
     beforeEach(inject(function($controller) {
         ctrl = $componentController('cartController');
-
     }));
 
-     it('should create cart with 0 items in it', function() {
-
+    it('should create cart with 0 items in it', function() {
       expect(ctrl.cartCtrl.items_Cart.length).toBe(0);
-    }));
+    });
 
 });
