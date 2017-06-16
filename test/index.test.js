@@ -10,11 +10,8 @@ describe('storeApp', function() {
 
       element.all(by.xpath('//*[@class="btn btn-info"]')).click();
       
-      browser.wait(function() {
-        return browser.getCurrentUrl().then(function(url) {
-                                            expect(url).toBe('http://192.168.7.60:5050/#!/tienda');
-                                            });
-      }, 5000, "URL hasn't changed"); 
+      expect(browser.getCurrentUrl()).toBe('http://192.168.7.60:5050/#!/tienda');
+                                            
       
     });
 
