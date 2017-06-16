@@ -10,7 +10,8 @@ describe('storeApp', function() {
     /*  var itemList = element.all(by.repeater('product in query'));
 
       expect(itemList.count()).toBe(7);*/
-     expect(true.toBe(true));
+     var t = true;
+     expect(t.toBe(true));
     });
 
   });
