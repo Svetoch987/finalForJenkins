@@ -1,23 +1,22 @@
-describe('storeApp', function() {
+describe("creating cart", function() {
+    var $rootScope;
+    var $controller;
+    beforeEach(module("cart"));
+    beforeEach(inject(function($injector) {
 
-  // Load the module that contains the `phoneList` component before each test
-  beforeEach(module('cart'));
+        $rootScope = $injector.get('$rootScope');
+        $controller = $injector.get('$controller');
+        $scope = $rootScope.$new();
 
-  // Test the controller
-  describe('cartController', function() {
+    }));
+    beforeEach(inject(function($controller) {
+        ctrl = $componentController('cartController');
 
-    it('should create cart with 0 items in it', inject(function($componentController) {
-      var ctrl = $componentController('cartController');
+    }));
+
+     it('should create cart with 0 items in it', inject(function($componentController) {
 
       expect(ctrl.cartCtrl.items_Cart.length).toBe(0);
     }));
 
-  });
-
 });
-/* var products = ['Photoshop','Corel','Inkscape'];
-it('should create 3 products', function() {
-
-    expect(products.length).toBe(3);
- });
-*/
