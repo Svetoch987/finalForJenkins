@@ -8,8 +8,8 @@ describe('storeApp', function() {
 
     it('should render specific links', function() {
 
-      element.all(by.css('.btn btn-info')).click();
-      //expect(browser.getLocationAbsUrl()).toBe('/tienda');
+      element.all(by.xpath('//*[@class="btn btn-info"]')).click();
+      expect(browser.getLocationAbsUrl()).toBe('/tienda');
     });
 
   });
