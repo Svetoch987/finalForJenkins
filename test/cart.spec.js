@@ -1,4 +1,4 @@
-/*describe('storeApp', function() {
+describe('storeApp', function() {
 
   // Load the module that contains the `phoneList` component before each test
   beforeEach(module('cart'));
@@ -14,9 +14,10 @@
 
   });
 
-});*/
-var products = ['Photoshop','Corel','Inkscape'];
+});
+/* var products = ['Photoshop','Corel','Inkscape'];
 it('should create 3 products', function() {
 
     expect(products.length).toBe(3);
  });
+*/
