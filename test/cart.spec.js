@@ -1,4 +1,4 @@
-/* describe("creating cart", function() {
+describe("creating cart", function() {
     var $rootScope;
     var $controller;
     beforeEach(module("cart"));
@@ -14,11 +14,11 @@
     }));
 
     it('should create cart with 0 items in it', function() {
-      expect(ctrl.cartCtrl.items_Cart.length).toBe(0);
+      expect(ctrl.items_Cart.length).toBe(0);
     });
 
-}); */
-
+}); 
+/*
 describe('creating cart', function() {
 
   beforeEach(module('cart'));
