@@ -13,6 +13,6 @@ describe('storeApp', function() {
      expect(true).toBe(true);
     });
 
-  });
+  });*/
 
-});*/
+});
