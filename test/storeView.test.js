@@ -1,4 +1,4 @@
-/* describe('storeApp', function() {
+describe('storeApp', function() {
 
   describe('storeController', function() {
 
@@ -14,7 +14,8 @@
 
   });
 
-});*/
+});
+/*
 var products = ['Photoshop','Corel','Inkscape'];
 it('should create 3 products', function() {
 
