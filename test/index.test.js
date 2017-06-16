@@ -3,7 +3,7 @@ describe('storeApp', function() {
   describe('storeMenuController', function() {
 
     beforeEach(function() {
-      browser.get('index.html');
+      browser.get('http://192.168.7.60:5050/#!/');
     });
 
     it('should render specific links', function() {
