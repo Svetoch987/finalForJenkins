@@ -9,7 +9,13 @@ describe('storeApp', function() {
     it('should render specific links', function() {
 
       element.all(by.xpath('//*[@class="btn btn-info"]')).click();
-      expect(browser.browser.getCurrentUrl()).toBe('http://localhost:5050/#!/tienda');
+      
+      browser.wait(function() {
+        return browser.getCurrentUrl().then(function(url) {
+                                            expect(url).toBe('http://localhost:5050/#!/tienda');
+                                            });
+      }, 10000, "URL hasn't changed"); 
+      
     });
 
   });
