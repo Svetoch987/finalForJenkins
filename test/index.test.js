@@ -15,8 +15,3 @@ describe('storeApp', function() {
   });
 
 });
-/*var products = ['Photoshop','Corel','Inkscape'];
-it('should create 3 products', function() {
-
-    expect(products.length).toBe(3);
- }); */
