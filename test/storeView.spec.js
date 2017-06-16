@@ -3,7 +3,7 @@ describe('storeApp', function() {
   beforeEach(module('storeApp'));
 
   // Test the controller
-  describe('storeController', function() {
+ /* describe('storeController', function() {
     var ctrl;
 
     beforeEach(inject(function($componentController) {
@@ -16,7 +16,7 @@ describe('storeApp', function() {
 
   });
   
-/* var products = ['Photoshop','Corel','Inkscape'];
+   var products = ['Photoshop','Corel','Inkscape'];
    it('should create 3 products', function() {
       expect(products.length).toBe(3);
    }); */
