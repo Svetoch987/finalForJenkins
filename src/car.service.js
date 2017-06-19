@@ -1,8 +1,8 @@
 /**
-    * @ngdoc service
-    * @name cartService
-    * @description cart
-    **/
+* @ngdoc service
+* @name cartService
+* @description cart
+**/
 (function (){
 
     'use strict';
