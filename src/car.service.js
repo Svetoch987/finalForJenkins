@@ -1,13 +1,14 @@
+/**
+    * @ngdoc service
+    * @name cartService
+    * @description cart
+    **/
 (function (){
 
     'use strict';
 
     angular.module("cart")
-    /**
-    * @ngdoc service
-    * @name cart.cartService
-    * @description cart
-    **/
+    
     .service("cartService",cartService);
     function cartService (){
 
