@@ -18,7 +18,7 @@ describe('storeApp', function() {
   
    var products = ['Photoshop','Corel','Inkscape'];
    */
-  it('should create 7 products', function() {
+  it('should load 7 products', function() {
       expect(true).toBe(true);
    }); 
 });
