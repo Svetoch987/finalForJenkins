@@ -1,5 +1,5 @@
 
-describe('creating cart', function() {
+describe('cart', function() {
 
   beforeEach(module('cart'));
 /*
