@@ -6,31 +6,31 @@
      /**
       * @ngdoc filter
       * @name priceMin
-      * @description all filters are a function
+      * @description filters by min prices
       */
     .filter("priceMin",filterMinPriceProducts)
     /**
      * @ngdoc filter
      * @name priceMax
-     * @description all filters are a function
+     * @description filters by max prices
      */
     .filter("priceMax",filterMaxPriceProducts)
     /**
      * @ngdoc filter
      * @name category
-     * @description all filters are a function
+     * @description filters by category
      */
     .filter("category",filterCategories)
     /**
      * @ngdoc filter
      * @name available
-     * @description all filters are a function
+     * @description filters goods that are available
      */
     .filter("available",filterAvailableProducts)
     /**
      * @ngdoc filter
      * @name bestSeller
-     * @description all filters are a function
+     * @description shows best sellers
      */
     .filter("bestSeller",filterBestSellerProducts);
 
