@@ -3,14 +3,14 @@ describe('storeApp', function() {
   describe('storeMenuController', function() {
 
     beforeEach(function() {
-      browser.get('http://192.168.7.60:5050/#!/');
+      browser.get('https://onlineshop.andersenlab.com/#!/');
     });
 
     it('should redirect to orders page', function() {
 
       element.all(by.xpath('//*[@class="fa fa-money"]')).click();
       
-      expect(browser.getCurrentUrl()).toBe('http://192.168.7.60:5050/#!/acerca');
+      expect(browser.getCurrentUrl()).toBe('https://onlineshop.andersenlab.com/#!/acerca');
     });
 
   });
