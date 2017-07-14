@@ -5,6 +5,6 @@ exports.config = {
         {'browserName': 'chrome'}
     ],
 	onPrepare: function() {   
-	jasmine.getEnv().addReporter(        new Jasmine2HtmlReporter({          savePath: 'target/screenshots'      }));  
+	jasmine.getEnv().addReporter(        new Jasmine2HtmlReporter({          savePath: 'autotests/screenshots'      }));  
 	}
 }
