@@ -3,7 +3,7 @@ describe('storeApp', function() {
   describe('storeMenuController', function() {
 
     beforeEach(function() {
-      browser.get('https://onlineshop.andersenlab.com/#!/');
+      browser.get('https://onlineshop.andersenlab.com/#!/', 5000);
     });
 
     it('should show cataloge page', function() {
