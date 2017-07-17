@@ -4,6 +4,7 @@ describe('storeApp', function() {
 
     beforeEach(function() {
       browser.get('https://onlineshop.andersenlab.com/#!/tienda');
+      browser.sleep(2000);
     });
 
     it('should check the items in shop', function() {
