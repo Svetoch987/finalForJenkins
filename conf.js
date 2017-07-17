@@ -1,4 +1,17 @@
 var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
+exports.config = {
+    specs: ['test/*test.js'],
+    multiCapabilities: [
+        {'browserName': 'chrome'}
+    ],
+	onPrepare: function() {   
+	jasmine.getEnv().addReporter(        new Jasmine2HtmlReporter({          savePath: 'autotests/screenshots'      }));  
+	}
+}
+
+
+
+/*var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 
 var reporter = new HtmlScreenshotReporter({
@@ -24,4 +37,4 @@ exports.config = {
       reporter.afterLaunch(resolve.bind(this, exitCode));
     });
   }
-}
+} */
