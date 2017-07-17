@@ -4,6 +4,7 @@ describe('storeApp', function() {
 
     beforeEach(function() {
       browser.get('https://onlineshop.andersenlab.com/#!/');
+      browser.sleep(2000);
     });
 
     it('should redirect to cart page', function() {
